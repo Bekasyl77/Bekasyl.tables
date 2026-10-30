@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задания по Java</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Задания по Java</h1>
+      </header>
+
+      <main class="app">
+        <aside class="sidebar">
+          <label for="taskSelect">Выберите задание</label>
+          <select id="taskSelect"></select>
+        </aside>
+
+        <section class="panel">
+          <div id="taskForm" class="task-form"></div>
+          <button id="runBtn" class="run-btn">Запустить задание</button>
+        </section>
+      </main>
+
+      <section class="result-block">
+        <h2>Результат</h2>
+        <pre id="resultOutput">Выберите задание и нажмите кнопку.</pre>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
